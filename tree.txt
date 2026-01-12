@@ -1,0 +1,50 @@
+卷 Windows 的文件夹 PATH 列表
+卷序列号为 18A6-8394
+C:.
+│  Basic Concepts.md
+│  tree.txt
+│
+├─pics
+│      pics.png
+│      pics2.png
+│      tanh(x-1).png
+│      迷宫.png
+|      ...
+│
+├─POLICY BASED
+│      Actor-Critic QAC.md
+│      Advantage Actor-Critic A2C.md
+│      Off-policy Actor-Critic.md
+│      Policy based 综述.md
+│      Policy gradient.md
+│      REINFORCE.md
+│
+└─VALUE BASED
+    │  Value Iteration & Policy Iteration.md
+    │
+    ├─Bellman Equation
+    │      Bellman Expectation Equation.md
+    │      Bellman Optimality Equation.md
+    │
+    ├─Monte Carlo Learning
+    │      MC Basic.md
+    │      MC Exploring starts.md
+    │      MC ε-greedy.md
+    │
+    ├─RM, SA&GD
+    │      Robbins-Monro收敛性证明.md
+    │      Stochastic Approximation.md
+    │      Stochastic gradient decent.md
+    │
+    ├─Temporal-difference Learning
+    │      Expected sarsa.md
+    │      General TD Idea.md
+    │      n-steps sarsa.md
+    │      Q-Learning.md
+    │      sarsa.md
+    │
+    └─Value Function Approximation
+            Curve Fitting Idea.md
+            Deep Q-Learning.md
+            Value Function Approximation.md
+            VFA with sarsa and Q-Learning.md
