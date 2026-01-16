@@ -20,7 +20,8 @@ $$
 那么为什么要引入这个baseline $b(S)$ 呢？其实是让采样能够更加快速的逼近平均值，也就是让sample的方差最小，这样每一次采的样本都是接近期望的。
 来看两个例子：
 图1，图2
-下面给出最优的 $b(S)$ 的公式，使用这个 $b(S)$ 能让数据的方差达到最小$$  
+下面给出最优的 $b(S)$ 的公式，使用这个 $b(S)$ 能让数据的方差达到最小
+$$  
 b^*(s) = \frac{  
 \mathbb{E}_{A \sim \pi} \left[ \lVert \nabla_{\theta} \ln \pi(A|s, \theta_t) \rVert^2 \cdot q(s, A) \right]  
 }{  
